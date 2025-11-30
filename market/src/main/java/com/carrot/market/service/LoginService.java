@@ -12,6 +12,8 @@ public class LoginService {
     private final LoginMapper loginMapper;
 
     public int  insertCustomer(Customer customer) {
+
+        //todo: customerNo 로직 추가해야함
         return loginMapper.insertCustomer(customer);
 
     }
